@@ -60,3 +60,17 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
+
+.container-body {
+  border: 1px solid yellow;
+  /* margin: 36px 0px; */
+  padding: 25px 36px;
+}
+
+.container-body-item {
+  max-width: 500px;
+  background: #273549;
+  text-align: center;
+  padding: 20px 70px;
+  margin-bottom: 23px;
+}
