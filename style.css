@@ -10,5 +10,53 @@
 }
 
 body {
+  background: #1c1c1c;
+  color: #fff;
   font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 550px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.container-head {
+  background: #6943ff;
+  padding: 30px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-head-title {
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.metric-input {
+  width: 100px;
+  height: 80px;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid #b295ff;
+  color: #fff;
+  border-radius: 5px;
+  background: transparent;
+  margin-bottom: 25px;
+}
+
+#convert-btn {
+  font: inherit;
+  font-weight: 500;
+  background: #fff;
+  color: #3d3d3d;
+  padding: 9px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }
