@@ -13,6 +13,7 @@ body {
   background: #1c1c1c;
   color: #fff;
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
 .container {
