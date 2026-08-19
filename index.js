@@ -12,9 +12,10 @@ const kilosToPounds = (kilo) => kilo * 2.20462;
 const poundsToKilos = (pound) => pound * 0.45359237;
 
 convertBtn.addEventListener("click", function () {
-  metersToFeet.innerHTML = `${inputEl.value} meters = ${meterToFeet(inputEl.value).toFixed(3)} feet | ${inputEl.value} feet = ${feetToMeter(inputEl.value).toFixed(3)} meters`;
+  const inputValue = Number(inputEl.value);
+  metersToFeet.textContent = `${inputValue} meters = ${meterToFeet(inputValue).toFixed(3)} feet | ${inputValue} feet = ${feetToMeter(inputValue).toFixed(3)} meters`;
 
-  literToGallon.innerHTML = `${inputEl.value} liters = ${litersToGallon(inputEl.value).toFixed(3)} gallons | ${inputEl.value} gallons = ${gallonToLiter(inputEl.value).toFixed(3)} liters`;
+  literToGallon.textContent = `${inputValue} liters = ${litersToGallon(inputValue).toFixed(3)} gallons | ${inputValue} gallons = ${gallonToLiter(inputValue).toFixed(3)} liters`;
 
-  kiloToPound.innerHTML = `${inputEl.value} kilos = ${kilosToPounds(inputEl.value).toFixed(3)} pounds | ${inputEl.value} pounds = ${poundsToKilos(inputEl.value).toFixed(3)} kilos`;
+  kiloToPound.textContent = `${inputValue} kilos = ${kilosToPounds(inputValue).toFixed(3)} pounds | ${inputValue} pounds = ${poundsToKilos(inputValue).toFixed(3)} kilos`;
 });
